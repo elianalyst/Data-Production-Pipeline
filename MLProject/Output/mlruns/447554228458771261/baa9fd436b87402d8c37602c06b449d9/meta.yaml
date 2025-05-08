@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/447554228458771261/baa9fd436b87402d8c37602c06b449d9/artifacts
+end_time: 1727459426365
+entry_point_name: ''
+experiment_id: '447554228458771261'
+lifecycle_stage: active
+run_id: baa9fd436b87402d8c37602c06b449d9
+run_name: Training Run Number 8
+run_uuid: baa9fd436b87402d8c37602c06b449d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727459426308
+status: 3
+tags: []
+user_id: elineiman

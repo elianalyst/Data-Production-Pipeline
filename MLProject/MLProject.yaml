@@ -1,0 +1,11 @@
+name: D602 Task 2
+
+conda_env: pipeline_env.yaml
+
+entry_points:
+  main:
+    parameters:
+      dset1: {type: str, default: /Users/elineiman/GIT/d602-deployment-task-2/MLProject/Data/aiport_csv}
+      dset2: {type: str, default: /Users/elineiman/GIT/d602-deployment-task-2/MLProject/Data/lax_airport_data}
+      n_trials: {type: int, default: 2}
+    command: "python main.py {dset} {n_trials}"
