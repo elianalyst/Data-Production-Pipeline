@@ -1,5 +1,8 @@
 T_ONTIME_REPORTING.csv
-Data/
-Output/
-__pycache__
-.DS_Store
+
+MLProject/Data/
+MLProject/Output/
+
+**/__pycache__/
+
+**/.DS_Store
