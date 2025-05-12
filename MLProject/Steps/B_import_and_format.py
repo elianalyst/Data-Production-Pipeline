@@ -16,7 +16,7 @@ def import_and_format():
     logging.info("Import and Format Log")
 
     #Import Data
-    airport=pd.read_csv('/Users/elineiman/Desktop/WGU Data Sets/T_ONTIME_REPORTING.csv')
+    airport=pd.read_csv('T_ONTIME_REPORTING.csv')
     logging.info(f"Data imported successfully from {'/Users/elineiman/Desktop/WGU Data Sets/T_ONTIME_REPORTING.csv'}")
     logging.info(f"Imported data frame shape: {airport.shape}")
 
